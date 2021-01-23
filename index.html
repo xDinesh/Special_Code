@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Application form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+
+<body>
+
+	<h1 class="h1text">Application Form For TimePass </h1>
+	<p id="description"><b>Note:</b>Form is to be completed at least 21 days perior to</p>
+
+	<fieldset>
+		<legend><b>Personal Details</b></legend>
+	<form action="action/php">
+			<label for="Fname"><b>First Name:</b>
+				<input type="text" name="firstname" placeholder="Enter your name"><br><br>
+			<label for="Lname"><b>Last Name:</b>
+				<input type="text" name="lastname" placeholder="Enter your last name">
+			</label><br><br>
+				<label for="email"><b>E-mail:</b></label>
+				<input type="text" name="email" placeholder="Enter your email"><br><br>
+			<label for="Password"><b>Password:</b>
+				<input type="Password" name="password" placeholder="Enter your password"><br><br>
+			<label for="bdate"><b>Date of Birth:</b>
+				<input type="Date" name="Date of Birth"><br><br>
+			<label><b>Gender:</b></label><br><br>
+				<input type="radio" id="Male" name=Gender>
+			<label for="Male">Male</label>
+				<input type="radio"	id="Female" name="Gender">
+			<label for="Female">Female</label>
+				<input type="radio" id="Other" name="Gender">
+			<label for="Other">Other
+			</label><br>
+		</fieldset>
+		<fieldset>
+			<legend>
+				<b>Education Field</b>
+			</legend>
+				<label>Select your Qualification</label>
+				<select id="dropdown">
+					<option value="">Select</option>
+
+					<option value="10th">10th</option>
+					<option value="12tj">12th</option>
+					<option value="Undergraduate">Undergraduate</option>
+					<option value="Graduate">Graduate</option>
+					<option value="Post Graduate">Post Graduate</option>
+				</select>
+		</fieldset>	
+
+		<fieldset>
+			<p><b>Check All That Apply</b></p>
+			<input type="checkbox" name="Tiktok">
+				<label>Are you a tiktoker ?</label><br>
+			<input type="checkbox" name="licence">
+				<label>Do you have driving licence ?</label><br>
+			<input type="checkbox" name="pubg">
+				<label>Do you play the pubg ?</label><br>
+			<input type="checkbox" name="outdoor">
+				<label>Do you like to play "GULLI DANDAA" or something else ?</label>
+	</fieldset><br>
+
+		<fieldset>
+			<legend>
+				<b>Essay Section</b>
+			</legend>
+			<label for="msg"></label>
+				<p>Tell about yourself in 50 or more than words</p>
+				<textarea id="msg" name="user message" rows="10" cols="40" placeholder="Enter your message"></textarea>
+			<label for="upload"></label>
+			<p>Upload you documents here</p>
+			<input type="file" name="Upload" value="Upload File"><br><br>
+
+		<button type="submit" id="submit">Send Application</button>
+		<button type="reset" id="reset">Reset</button>
+	</fieldset>
+	</form>
+
+</body>
+</htm>

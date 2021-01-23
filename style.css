@@ -1,0 +1,15 @@
+
+body{
+	position: relative;
+	font-family: cursive;
+	background-image: url('image.jpg');
+	opacity: 0.8;
+	background-repeat: no-repeat;
+	background-size: 2000px;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.htext{
+	position: center;
+}
