@@ -6,7 +6,7 @@
 </head>
 <body>
 
-	<h1 class="h1text">Application Form For TimePass </h1>
+	<h1 class="h1text">My first Form </h1>
 	<p id="description"><b>Note:</b>Form is to be completed at least 21 days perior to</p>
 
 	<fieldset>
@@ -56,7 +56,7 @@
 			<input type="checkbox" name="pubg">
 				<label>Do you play the pubg ?</label><br>
 			<input type="checkbox" name="outdoor">
-				<label>Do you like to play "GULLI DANDAA" or something else ?</label>
+				<label>Do you like to play "BATBALL" or something else ?</label>
 	</fieldset><br>
 
 		<fieldset>
